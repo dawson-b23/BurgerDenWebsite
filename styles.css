@@ -6,7 +6,7 @@
 }
 
 .navbar {
-    background: #0065a9;
+    background: #03698f;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -31,7 +31,7 @@
 
 #navbar__logo {
     background-color: #0098ff;
-    background-image: linear-gradient(to top, #0065a9 0%, #fff 100%);
+    background-image: linear-gradient(to top, #860037 0%, #f0ebe3 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -53,4 +53,51 @@
     align-items: center;
     list-style: none;
     text-align: center;
+}
+
+.navbar__item {
+    height: 80px;
+}
+
+.navbar__links { 
+    color: #f0ebe3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 16px;
+    height: 100%;
+}
+
+.navbar__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 16px;
+    width: 100%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #860037;
+    color: #f0ebe3;
+}
+
+.button:hover {
+    background: #adbcc1;
+    transition: all 0.3s ease;
+}
+
+.navbar__links:hover {
+    color: #860037;
+    transition: all 0.3s ease;
 }
