@@ -1,3 +1,4 @@
+/* Applies to whole page */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,6 +6,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* NAVBAR SECTION */
 .navbar {
     background: #03698f;
     height: 80px;
@@ -198,3 +200,4 @@
         transform: translateY(-8px) rotate(-45deg);
     }
 }
+
